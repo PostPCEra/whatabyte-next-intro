@@ -1,7 +1,7 @@
 # whatabyte-next-intro
 
 ### What & Why?
- - This seems the most COMPREHENSIVE example with complete 'Styling for a serious web site' , details are explained  are in these 3 PART tutorial
+ - This seems the most 'COMPREHENSIVE Step by Step ' example with complete 'Styling for a serious web site' , details are explained  are in these 3 PART tutorial
  - Next.js [Practical Introduction: Pages and Layout](https://auth0.com/blog/next-js-practical-introduction-for-react-developers-part-1/) , see final 'part-3'
  
 ### build status
