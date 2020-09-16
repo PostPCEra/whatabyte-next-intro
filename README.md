@@ -1,0 +1,18 @@
+# whatabyte-next-intro
+
+### build status
+ - as it is 'npm run dev' gives errors
+ - fix is : npm uninstall node-sass && npm install node-sass [as stated on this stackoverflow](https://stackoverflow.com/questions/37415134/error-node-sass-does-not-yet-support-your-current-environment-windows-64-bit-w)
+ - after above fix, pages showed fine
+ - reason for above error is, if you look at package.json , all packages are OLD vesions.
+ -
+ - Once you upgrade package.json libs to new versions, [we may try the following fix from dev.to site](https://dev.to/vladymyrpylypchatin/comment/m7fg)
+```
+// next.config.js
+const withStyles = require('@webdeb/next-styles')
+
+module.exports = withStyles({
+  sass: true, // use .scss files
+  modules: true, // style.(m|module).css & style.(m|module).scss for module files
+})
+```
