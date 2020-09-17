@@ -4,6 +4,10 @@
  - This seems the most 'COMPREHENSIVE Step by Step ' example with complete 'Styling for a serious web site' , details are explained  are in these 3 PART tutorial
  - Next.js [Practical Introduction: Pages and Layout](https://auth0.com/blog/next-js-practical-introduction-for-react-developers-part-1/) , see final 'part-3'
  
+### TODO
+ - make this repo work with 'malearn' react js & next-css versions
+ - once works, serach on web, before doing it, only copy these if THIS STYLING schema is good 
+
 ### build status
  - as it is 'npm run dev' gives errors
  - fix is : npm uninstall node-sass && npm install node-sass [as stated on this stackoverflow](https://stackoverflow.com/questions/37415134/error-node-sass-does-not-yet-support-your-current-environment-windows-64-bit-w)
@@ -20,3 +24,5 @@ module.exports = withStyles({
   modules: true, // style.(m|module).css & style.(m|module).scss for module files
 })
 ```
+-
+- one more place to look at for Style SASS reference is [this popular NExt js boierplate](https://github.com/pankod/next-boilerplate/blob/master/next.config.js)
