@@ -6,8 +6,14 @@
  
 ### TODO
  - make this repo work with 'malearn' react js & next-css versions
+ - this Rebass look better : https://rebassjs.org/recipes/flexbox-wrap ; https://rebassjs.org/image
  - once works, serach on web, before doing it, only copy these if THIS STYLING schema is good 
-
+ -
+ - RESEARCH
+ - https://theme-ui.com/home 
+ - Rebass
+ - [Theme-ui vs. Rebass : reddit](https://www.reddit.com/r/reactjs/comments/g4zd6o/why_using_rebass_over_theme_ui/)
+ 
 ### build status
  - as it is 'npm run dev' gives errors
  - fix is : npm uninstall node-sass && npm install node-sass [as stated on this stackoverflow](https://stackoverflow.com/questions/37415134/error-node-sass-does-not-yet-support-your-current-environment-windows-64-bit-w)
